@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
+
+"scripts": {
+  "build": "cd frontend && npm install && npm run build",
+  "start": "cd backend && npm install && npm run start"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
